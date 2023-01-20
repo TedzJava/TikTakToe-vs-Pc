@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body onload="disableGame()">
+
+<section class="choice"> 
+	<div>
+		Veuillez choisir votre symbole : 
+		<input id="choice1" type="button" name="X" value="X" onclick="choice(this.value)" />
+		<input id="choice2" type="button" name="O" value="O" onclick="choice(this.value)" />
+	</div>
+</section>
+
+<section class="game">
+	<div class="outsideDiv1">
+		<div class="inside">
+			<input id="1" type="button" name="btn" value="NaN" onclick="setSymb(this.id)" />
+		</div>
+
+		<div class="inside">
+			<input id="4" type="button" name="btn" value="NaN" onclick="setSymb(this.id)" />
+		</div>
+
+		<div class="inside">
+			<input id="7" type="button" name="btn" value="NaN" onclick="setSymb(this.id)" />
+		</div>
+	</div>
+
+	<div class="outsideDiv2">
+		<div class="inside">
+			<input id="2" type="button" name="btn" value="NaN" onclick="setSymb(this.id)" />
+		</div>
+
+		<div class="inside">
+			<input id="5" type="button" name="btn" value="NaN" onclick="setSymb(this.id)" />
+		</div>
+
+		<div class="inside">
+			<input id="8" type="button" name="btn" value="NaN" onclick="setSymb(this.id)" />
+		</div>
+	</div>
+
+	<div class="outsideDiv3">
+		<div class="inside">
+			<input id="3" type="button" name="btn" value="NaN" onclick="setSymb(this.id)" />
+		</div>
+
+		<div class="inside">
+			<input id="6" type="button" name="btn" value="NaN" onclick="setSymb(this.id)" />
+		</div>
+
+		<div class="inside">
+			<input id="9" type="button" name="btn" value="NaN" onclick="setSymb(this.id)" />
+		</div>
+	</div>
+</section>
+
+<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>

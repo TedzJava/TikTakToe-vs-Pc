@@ -1,0 +1,39 @@
+/*===== CHOICE PART =====*/
+section.choice{
+	padding-bottom: 3ex;
+	font-size: 20px;
+}
+section.choice div input{
+	font-size: 15px;
+}
+
+
+
+/*===== GAME PART =====*/
+section.game{
+	width: 500px;
+	height: 100px;
+	display: flex;
+	flex-flow: row nowrap;
+	align-content: flex-start;
+}
+section.game div{
+	width: 100%;
+	height: 100%;
+}
+section.game div div.inside{
+	border: 1px solid black;
+}
+section.game div div.inside input{
+	width: 100%;
+	height: 100%;
+	font-size: 30px;
+}
+
+
+
+/*===== OTHERS =====*/
+body{
+	padding-top: 15ex;
+	padding-left: 15ex;
+}
